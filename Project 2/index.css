@@ -1,0 +1,24 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container{
+  height: 300px;
+  width: 300px;
+  margin: 100px;
+}
+.search-field{
+  width: 30%;
+  border: 1px solid black;
+  transition: all .5s;
+  border-radius: 6px;
+
+}
+.search-field:focus{
+  width: 100%;
+  border-color: blue;
+}
+.search-field:focus::placeholder{
+  color: transparent;
+}

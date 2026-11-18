@@ -1,0 +1,31 @@
+/* Project 4 - index.css */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.circle{
+  background: black;
+  margin: 4px;
+  border-radius: 50%;
+  height: .6rem;
+  width: .6rem;
+  animation: pluse infinite  alternate 1s;
+}
+@keyframes pluse {
+  from{
+    background: black;
+  }
+  to{
+    background: green;
+    height: 1.4rem;
+    width: 1.4rem;
+  }
+  
+}
