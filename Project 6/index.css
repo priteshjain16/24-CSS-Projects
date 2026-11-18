@@ -4,12 +4,36 @@
   padding: 0;
   box-sizing: border-box;
 }
-
-body {
-  font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
-  min-height: 100vh;
-  display: grid;
-  place-items: center;
-  background: #0f172a;
-  color: #e2e8f0;
+.rings{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.ring{
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.ring1{
+  background-color: black;
+  height: 200px;
+  width: 200px;
+}
+.ring2{
+  background-color: blue;
+  height: 150px;
+  width: 150px;
+}
+.ring3{
+  background-color: green;
+  height: 100px;
+  width: 100px;
+}
+.ring4{
+  background-color: red;
+  height: 50px;
+  width: 50px;
 }
