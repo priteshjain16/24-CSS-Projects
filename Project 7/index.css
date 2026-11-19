@@ -4,12 +4,39 @@
   padding: 0;
   box-sizing: border-box;
 }
-
-body {
-  font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
-  min-height: 100vh;
-  display: grid;
-  place-items: center;
-  background: #0f172a;
-  color: #e2e8f0;
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+h1:after{
+  content: "hi";
+  background-color: purple;
+  border-radius: 5px;
+  margin-left: 5px;
+  color: white;
+  padding: 6px;
+  animation: swap 4s infinite;
+}
+@keyframes swap {
+  0%{
+    content: "Coding";
+  }
+  20%{
+    content: "Reading";
+  }
+  40%{
+    content: Tech;
+  }
+  60%{
+    content: "Smartphone";
+  }
+  80%{
+    content: "Movies";
+  }
+  100%{
+    content: "Coding";
+  }
+  
 }

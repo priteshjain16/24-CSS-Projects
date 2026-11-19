@@ -3,13 +3,27 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  background-color: black;
 }
 
-body {
-  font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
-  min-height: 100vh;
-  display: grid;
-  place-items: center;
-  background: #0f172a;
-  color: #e2e8f0;
+.flag-madagascar{
+  display: flex;
+  height: 200px;
+  width: calc(200px * 3/2);
+  margin: 40px;
+}
+.white{
+  background-color: white;
+  width: calc(200px / 2);
+}
+.red{
+  background-color: red;
+  height: calc(200px/2);
+  width: 200px;
+ 
+}
+.green{
+  background-color: green;
+  height: calc(200px/2);
+  width: 200px;
 }

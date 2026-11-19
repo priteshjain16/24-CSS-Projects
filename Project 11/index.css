@@ -4,12 +4,24 @@
   padding: 0;
   box-sizing: border-box;
 }
-
-body {
-  font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
-  min-height: 100vh;
-  display: grid;
-  place-items: center;
-  background: #0f172a;
-  color: #e2e8f0;
+.flag-swis{
+  background-color: red;
+  height: 200px;
+  width: 200px;
+  margin: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.rec1{
+  height: calc(200px* 3/16);
+  width: calc(200px * 5/8);
+  background-color: white;
+}
+.rec2{
+  height: calc(200px * 5/8);
+  width: calc(200px* 3/16);
+  background-color: white;
+  position: absolute;
 }

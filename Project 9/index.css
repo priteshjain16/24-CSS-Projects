@@ -3,13 +3,27 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  background-color: rgb(253, 253, 253);
+}
+.flag-germany{
+  /* display: flex; */
+  display: grid;
+  height: 200px;
+  width: calc(200px * 5/3);
+  background-color: pink;
+  margin: 40px;
+  /* flex-direction: column; */
+}
+/* .strip{
+  flex-grow: 1;
+} */
+.black{
+  background-color:  #000000;
+}
+.red{
+  background-color: #D00000;
+}
+.yellow{
+  background-color: #FFCE00;
 }
 
-body {
-  font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
-  min-height: 100vh;
-  display: grid;
-  place-items: center;
-  background: #0f172a;
-  color: #e2e8f0;
-}
