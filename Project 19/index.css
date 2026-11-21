@@ -4,12 +4,33 @@
   padding: 0;
   box-sizing: border-box;
 }
-
-body {
-  font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
-  min-height: 100vh;
-  display: grid;
-  place-items: center;
-  background: #0f172a;
-  color: #e2e8f0;
+.container{
+  width: 80%;
+  margin: 60px auto;
+  box-sizing: border-box;
+}
+.progress-bar{
+  height: 40px;
+  border-radius: 22px;
+  background-color: gray;
+}
+.status{
+  height: 40px;
+  border-radius: 22px;
+}
+.stage-1{
+  background-color: yellow;
+  width: 25%;
+}
+.stage-2{
+  background-color: pink;
+  width: 50%;
+}
+.stage-3{
+  background-color: green;
+  width: 75%;
+}
+.stage-4{
+  background-color: rebeccapurple;
+  width: 100%;
 }

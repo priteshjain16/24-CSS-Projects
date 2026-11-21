@@ -5,11 +5,28 @@
   box-sizing: border-box;
 }
 
-body {
-  font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
-  min-height: 100vh;
-  display: grid;
-  place-items: center;
-  background: #0f172a;
-  color: #e2e8f0;
+
+.flag-sweden{
+  box-sizing: border-box;
+  position: relative;
+  height: 200px;
+  width: calc(200px * 8/5);
+  margin: 2rem;
+  background-color: #006aa7;
+  display: flex;
+}
+.strip{
+  background-color: #fecc02;
+  height: calc(200px * 1/5);
+}
+.yellow1{
+  align-self: center;
+  width: 100%;
+}
+.yellow2{
+  width: 200px;
+  position: absolute;
+  transform: rotate(90deg);
+  top: calc(200px * 4/10);
+  right: calc((200px * 8/5)*5/16);
 }

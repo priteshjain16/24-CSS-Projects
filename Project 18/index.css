@@ -4,12 +4,37 @@
   padding: 0;
   box-sizing: border-box;
 }
-
-body {
-  font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
-  min-height: 100vh;
+body{
+  color: red;
+}
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.card{
+  height: 200px;
+  width: calc(200px * 2/3);
+  background-color: pink;
+  border-radius: 6px;
+  border: 2px solid black;
   display: grid;
-  place-items: center;
-  background: #0f172a;
-  color: #e2e8f0;
+  grid-template-columns: 10% 80% 10%;
+  padding: .5em;
+  
+}
+.top{
+  font-size: 1.2em;
+}
+.bottom{
+  transform: rotate(180deg);
+  font-size: 1.2em;
+}
+.middle{
+  display: grid;
+  grid-template-columns: 50% 50%;
+  font-size: 4em;
+  align-items: center;
+  text-align: center;
 }
