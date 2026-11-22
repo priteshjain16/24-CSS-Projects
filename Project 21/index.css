@@ -4,12 +4,23 @@
   padding: 0;
   box-sizing: border-box;
 }
-
-body {
-  font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
-  min-height: 100vh;
-  display: grid;
-  place-items: center;
-  background: #0f172a;
-  color: #e2e8f0;
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100dvh;
+}
+.loading{
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+  border: 20px solid gray;
+  border-top-color: blueviolet;
+  animation: spin 2s linear infinite;
+}
+@keyframes spin {
+  100%{
+    transform: rotate(360deg);
+  }
+  
 }
