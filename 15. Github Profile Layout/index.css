@@ -1,0 +1,55 @@
+/* Project 15 - index.css */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container{
+  background-color: black;
+  height: 100%;
+  padding: 2px;
+}
+.profile-content{
+  background-color: rgb(38, 37, 37);
+  width: 75%;
+  max-width: 400px;
+  min-width: 200px;
+  margin: 2rem auto;
+  padding: 1rem 2rem;
+  border-radius: 8px;
+}
+.profile-content img{
+  max-width: 100%;
+  border-radius: 50%;
+  border: 2px solid black;
+}
+.profile-content button{
+  color: white;
+  width: 100%;
+  border: 0.5px solid gray;
+  border-radius: 4px;
+  padding: .5em 0.2em;
+  background-color: rgb(19, 19, 19);
+}
+.profile-content button:hover{
+  border-color: white;
+  background-color: rgb(25, 24, 24);
+}
+.profile-content h2{
+  color: white;
+  font-weight: bolder;
+  font-size: 2em;
+  margin-bottom: 2px;
+}
+.profile-content h3{
+  color: rgb(194, 190, 190);
+  font-weight: lighter;
+  font-size: 0.9em;
+  margin-bottom: 4px;
+}
+.profile-content p{
+  color: white;
+  margin-bottom: 3px;
+  font-size: 1.2em;
+  font-weight: 500;
+}
